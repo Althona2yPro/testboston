@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Type ay 7aga"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+<LinearLayout
+    android:weightSum="100"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+    <ToggleButton
+        android:id="@+id/tbedittext"
+        android:layout_weight="80"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:checked="true"
+        android:paddingBottom="2dp"
+         />
+
+    <Button
+        android:id="@+id/b_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="Button" />
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/tvedittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="TextView" />
+
+</LinearLayout>
